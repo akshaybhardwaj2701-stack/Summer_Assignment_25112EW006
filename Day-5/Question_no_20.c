@@ -20,7 +20,9 @@ int main() {
         }
     }
 
-    
+    if (n > 2) {
+        largest = n;
+    }
 
     printf("Largest Prime Factor = %d\n", largest);
 
