@@ -37,7 +37,7 @@ int main(){
         int crr[n1][n2];
     for(int i=0;i<n1;i++){
         for(int j=0;j<n2;j++){
-           crr[i][j]=arr[i][j]brr[i][j];
+           crr[i][j]=arr[i][j]*brr[i][j];
         }
         cout<<endl;
     }
